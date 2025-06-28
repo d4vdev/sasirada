@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'SegoeUI-Regular';
+  src: url('segoeui.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SegoeUI-Regular', sans-serif;
+}
+
+
+.desc{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+ 
+}
+
+.rel-status-text {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+svg {
+    width : 25px;
+    height: auto;
+    margin-left: 10px;
+
+}
+
+.sasirada-button {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf; /* Green */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid 2px darkgray; /* Black border */
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
+    user-select: none;
+    cursor: pointer;
+}
+
+.sasirada-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jitti-button {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf; /* Green */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid 2px darkgray; /* Black border */
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
+    user-select: none;
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+.jitti-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+}
