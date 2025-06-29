@@ -2,7 +2,7 @@ let relStatusText = document.querySelector('.rel-status-text');
 
 const relAvailableStatus = ['Married', 'Healthy', 'Medium', 'Unstable', 'Broken', 'Single', 'Divorced', 'Widowed', 'Complicated'];
 
-let relStatus = relAvailableStatus[1];
+let relStatus = relAvailableStatus[2];
 
 relStatusText.textContent = relStatus;
 
